@@ -1,0 +1,8 @@
+# ResProto-Hub Lockfile - Deterministic Production Build
+typing_extensions==4.12.2
+pydantic==2.8.2
+pydantic_core==2.20.1
+numpy==2.0.1
+pytest==8.3.2
+iniconfig==2.0.0
+pluggy==1.5.0
