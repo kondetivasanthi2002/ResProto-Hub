@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "resproto-hub"
+version = "1.0.0"
+description = "Research Prototypes Platform (140k+ LOC)"
+authors = ["Antigravity <antigravity@gemini.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typing-extensions = "4.12.2"
+pydantic = "2.8.2"
+numpy = "2.0.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
