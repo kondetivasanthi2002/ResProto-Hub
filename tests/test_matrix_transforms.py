@@ -1,4 +1,5 @@
 import unittest
+import math
 from src.domain.vision.advanced_matrix_transforms import VisionMatrixTransformer
 
 class TestMatrixTransforms(unittest.TestCase):
@@ -16,5 +17,4 @@ class TestMatrixTransforms(unittest.TestCase):
         self.assertEqual(norm[0][0], 0.0)
 
 if __name__ == '__main__':
-    import math
     unittest.main()
